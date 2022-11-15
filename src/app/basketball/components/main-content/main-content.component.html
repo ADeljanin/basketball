@@ -1,0 +1,16 @@
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="over">
+    <h2>
+      You can manage your team, players, simulate games and much more on links
+      below
+    </h2>
+    <button mat-raised-button (click)="openDialog()">Add new team</button>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <h1>Welcome to basketball application!</h1>
+    <button type="button" mat-button (click)="drawer.toggle()">
+      Start your basketball journey here!
+    </button>
+  </div>
+</mat-drawer-container>

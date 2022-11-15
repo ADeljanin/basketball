@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACjB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,cAAc;CACvB",
+    "sources": [
+        "../src/app/basketball/components/sidenav/sidenav.component.scss"
+    ],
+    "names": [],
+    "file": "sidenav.component.css"
+}
