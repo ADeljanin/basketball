@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EAChB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,GAAG,EAAE,IAAI;EACT,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "../src/app/basketball/components/new-team/new-team.component.scss"
+    ],
+    "names": [],
+    "file": "new-team.component.css"
+}

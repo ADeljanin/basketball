@@ -1,1 +1,24 @@
-<router-outlet></router-outlet>
+<mat-drawer-container class="example-container">
+  <mat-drawer class="btn-container" mode="side" opened>
+    <!-- <app-sidenav></app-sidenav> -->
+    <div class="buttons">
+      <button mat-raised-button color="accent" routerLink="/teams">
+        Teams
+      </button>
+      <button mat-raised-button color="accent">Players</button>
+      <button mat-raised-button color="accent">Results</button>
+    </div>
+  </mat-drawer>
+  <mat-drawer-content>
+    <div class="main-container bg-video">
+      <video class="bg-video__content" autoplay muted loop>
+        <source
+          src="../../../../assets/video/basketball.mp4"
+          type="video/mp4"
+        />
+        Your browser is not supported
+      </video>
+    </div>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

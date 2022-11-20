@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { MainContentComponent } from './basketball/components/main-content/main-content.component';
-import { SidenavComponent } from './basketball/components/sidenav/sidenav.component';
+import { TeamsComponent } from './basketball/components/teams/teams.component';
 
 const routes: Routes = [
   {
@@ -10,8 +10,8 @@ const routes: Routes = [
     component: MainContentComponent,
   },
   {
-    path: 'side-nav',
-    component: SidenavComponent,
+    path: 'teams',
+    component: TeamsComponent,
   },
 ];
 

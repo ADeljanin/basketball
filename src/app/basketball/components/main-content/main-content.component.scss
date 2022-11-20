@@ -1,37 +1,14 @@
-.example-container {
-  width: auto;
-  height: 100vh;
-  border: 1px solid rgba(0, 0, 0, 0.5);
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
 
-  .example-sidenav-content {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(
-        to left,
-        rgba(255, 255, 255, 0.8),
-        rgba(78, 211, 223, 0.8)
-      ),
-      url(../../../../assets/img/nba.jpg);
-    background-size: cover;
-
-    h1 {
-      color: rgb(64, 93, 209);
-      font-size: 4rem;
-    }
-  }
-
-  .example-sidenav {
-    padding: 20px;
-    width: 25%;
-    background-image: linear-gradient(
-        to left,
-        rgba(255, 255, 255, 0.9),
-        rgba(147, 146, 164, 0.9)
-      ),
-      url(../../../../assets/img/whiteboard.jpg);
-    background-size: cover;
-  }
+h1 {
+  text-align: center;
+}
+img {
+  width: 50%;
 }

@@ -8,6 +8,8 @@ import { MaterialModule } from './shared/material.module';
 import { SidenavComponent } from './basketball/components/sidenav/sidenav.component';
 import { MainContentComponent } from './basketball/components/main-content/main-content.component';
 import { NewTeamComponent } from './basketball/components/new-team/new-team.component';
+import { TeamsComponent } from './basketball/components/teams/teams.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,7 @@ import { NewTeamComponent } from './basketball/components/new-team/new-team.comp
     SidenavComponent,
     MainContentComponent,
     NewTeamComponent,
+    TeamsComponent,
   ],
   entryComponents: [NewTeamComponent],
   imports: [
@@ -22,6 +25,8 @@ import { NewTeamComponent } from './basketball/components/new-team/new-team.comp
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    ReactiveFormsModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

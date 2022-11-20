@@ -1,10 +1,4 @@
-.example-container {
-  width: auto;
-  height: 100vh;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-}
-
-.example-container .example-sidenav-content {
+.main-content-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,28 +6,20 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0.8)), to(rgba(78, 211, 223, 0.8))), url(../../../../assets/img/nba.jpg);
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.8), rgba(78, 211, 223, 0.8)), url(../../../../assets/img/nba.jpg);
-  background-size: cover;
 }
 
-.example-container .example-sidenav-content h1 {
-  color: #405dd1;
-  font-size: 4rem;
+h1 {
+  text-align: center;
 }
 
-.example-container .example-sidenav {
-  padding: 20px;
-  width: 25%;
-  background-image: -webkit-gradient(linear, right top, left top, from(rgba(255, 255, 255, 0.9)), to(rgba(147, 146, 164, 0.9))), url(../../../../assets/img/whiteboard.jpg);
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.9), rgba(147, 146, 164, 0.9)), url(../../../../assets/img/whiteboard.jpg);
-  background-size: cover;
+img {
+  width: 50%;
 }
 /*# sourceMappingURL=main-content.component.css.map */
