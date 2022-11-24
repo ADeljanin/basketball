@@ -33,8 +33,11 @@ export class MainContentComponent implements OnInit {
   // }
 
   openDialog() {
-    this.dialog.open(NewTeamComponent, {
+    let dialogRef = this.dialog.open(NewTeamComponent, {
       width: '30rem',
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      console.log('The dialog was closed', result);
     });
   }
 
