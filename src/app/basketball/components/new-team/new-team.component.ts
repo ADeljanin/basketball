@@ -10,6 +10,7 @@ import { MainContentComponent } from '../main-content/main-content.component';
 })
 export class NewTeamComponent implements OnInit {
   teamForm!: FormGroup;
+  teamName: string = '';
   constructor(private formBuilder: FormBuilder) {}
 
   ngOnInit(): void {
@@ -26,7 +27,10 @@ export class NewTeamComponent implements OnInit {
     console.log(this.teamForm.value);
 
     localStorage.setItem('team', JSON.stringify(this.teamForm.value));
+    // return localStorage.getItem('team');
+    // this.teamName = JSON.stringify(this.teamForm.value);
   }
+
   // constructor(public dialog: MatDialog) {}
   // // ngOnInit(): void {
   // //   throw new Error('Method not implemented.');

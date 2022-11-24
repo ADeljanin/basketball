@@ -10,6 +10,7 @@ import { MainContentComponent } from './basketball/components/main-content/main-
 import { NewTeamComponent } from './basketball/components/new-team/new-team.component';
 import { TeamsComponent } from './basketball/components/teams/teams.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MAT_DIALOG_DEFAULT_OPTIONS } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule,
     FormsModule,
   ],
-  providers: [],
+  providers: [
+    { provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: { hasBackdrop: false } },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
